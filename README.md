@@ -1,6 +1,6 @@
-# Node.js + Express(version 4) + MongoDB + Mongoose + Handelbars for the UI
-# Building a very simple login + registration app
-### author : siva Boyapati
+### Node.js + Express(version 4) + MongoDB + Mongoose + Handelbars for the UI
+#### Building a very simple login + registration app
+#### author : siva Boyapati
 
 
 
