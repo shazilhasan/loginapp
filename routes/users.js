@@ -12,9 +12,9 @@ router.get('/register', function(req, res){
 
 // Login
 router.get('/login', function(req, res){
-	res.render('login');
+	res.render('login',{'message':'Hello world'});
 });
-
+//welcome
 // Register User
 router.post('/register', function(req, res){
 	var name = req.body.name;
