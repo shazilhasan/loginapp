@@ -10,7 +10,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://ravi:ravi@ds019846.mlab.com:19846/mongodbtest');
+mongoose.connect('mongodb://technologics-server:hd4a9UriDrebEAnhxNvWpLdDnUpiSFaiCXTJ4R6wXF54cHkIiCGbvsXZK666gHrsoBa3Tqrwjs3QACDbICwNHA==@technologics-server.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@technologics-server@');
 //mongoose.connect('mongodb://localhost/loginapp');
 var db = mongoose.connection;
 
